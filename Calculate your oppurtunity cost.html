@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculate your OPPURTUNITY cost</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> <!-- AT ANY COST NO TOUCHING THIS LINE -->
+<div class="sidebar close">
+    <div class="logo-details">
+      <!-- <i class='bx bxl-bitcoin'></i>-->
+      <span class="logo_name">    Menu</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="/Users/Sofiyan/Desktop/learn-py-main/index.html">
+          <i class='bx bx-home'></i>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Home</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <!--<i class='bx bxs-chevron-down arrow'></i>-->
+        </div>
+      </li>
+       <li>
+        <div class="icon-link">
+          <a href="/Users/Sofiyan/Desktop/learn-py-main/Calculate your oppurtunity cost.html">
+            <i class='bx bx-file-find'></i>
+            <span class="link_name">Calculate your Oppurtunity</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-bar-chart'></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Chart</a></li>
+        </ul>
+      </li>
+      <li>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Explore</a></li>
+        </ul>
+      </li>
+      <li>
+      <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="https://raw.githubusercontent.com/Sofiyan1-786/learn-py/main/main%20logo.PNG" alt="#">
+          </div>
+          <i class='bx bx-log-out'></i> 
+          </div>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="home-content">
+      
+      <span class="text">ADS PROJECT - ARBITRAGE OPPURTUNITY</span>
+      <br>
+    </div>
+    <h1 class = "t1">XRP Price Difference Calculator</t1>
+    
+    <label for="amount">Enter amount in INR:</label>
+    <input button class="custom-btn btn-7" class="overflow" type="number" id="amount" name="amount">
+    <style>
+      .overflow {
+        overflow: hidden;
+      }
+    </style>
+    <button class="custom-btn btn-6" onclick="calculate()">Calculate</button>
+
+    <t1 id="result"></t1>
+    <t1 id="output"></t1>
+    <t1 id="diff"></t1>
+
+    <p id="zebpay-price"></p>
+    <p id="kucoin-price"></p>
+
+    <script> function getZebpayXRPPrice() {
+      return 500;
+  }
+
+  function getKucoinXRPPrice() {
+      return 490; // Just again
+  }
+
+  function calculate() {
+      let inputVal = document.getElementById("amount").value;
+      try {
+          inputVal = parseFloat(inputVal);
+          let zebpayPrice = getZebpayXRPPrice();
+          let kucoinPrice = getKucoinXRPPrice();
+
+          let xrpKucoinInr = kucoinPrice; // Pretend KuCoin gives price directly in INR
+          let resultVal = (inputVal - (inputVal * 0.035)) / xrpKucoinInr * zebpayPrice;
+          let outputVal = resultVal - inputVal;
+          let diff = ((zebpayPrice / xrpKucoinInr) - 1) * 100;
+
+          document.getElementById("result").textContent = "INR " + resultVal.toFixed(2);
+          document.getElementById("output").textContent = outputVal < 0 ? "- INR " + Math.abs(outputVal).toFixed(2) : "+ INR " + outputVal.toFixed(2);
+          document.getElementById("diff").textContent = diff.toFixed(2) + "%";
+
+          if (diff > 0) {
+              // Potential arbitrage opportunity, If ND ONLY IF THE OPPURTUNITY IS THERE!!!
+              alert("Arbitrage opportunity detected! Price difference: " + diff.toFixed(2) + "%");
+          }
+      } catch (error) {
+          document.getElementById("result").textContent = "   Kindly Wait: RUkk Ja bhai thoda";
+          document.getElementById("output").textContent = "";
+          document.getElementById("diff").textContent = "";
+          console.log(error);
+      }
+  }</script>
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    <SPAN></SPAN>
+    <br>
+    <h1 class = "t1">Here we are using Greedy Algorithm: Detailed Personal Explanation:</h1>
+    <BR><span>   </span>
+    <h3 class = "t2">1. Here the Greedy Algo gets the aray sorted in a decending order so O(n) Max Heap like structure.<br>
+    2. it Creates the variable from the Order Book or Order History, Considers the Exchange fees and Currency conversion charges.
+    <br> 3. Calculates the best oppurtunity, returns deducted profitability percentage</h3>
+    <br><span>   </span>
+    <br><span>   </span></h2>
+
+
+    </section>
+  <script  src="./script.js"></script>
+  
+  <div class="zoom-in-out-box"></div>
+  <style>
+    .zoom-in-out-box {
+       margin: 24px;
+       width: 50px;
+       height: 50px;
+       background: #e4e9f7;
+       animation: zoom-in-zoom-out 2s ease infinite;
+    }
+    @keyframes zoom-in-zoom-out { 
+       0% {
+          transform: scale(1, 1);
+       }
+       50% {
+          transform: scale(1.5, 1.5);
+       }
+       100% {
+          transform: scale(1, 1);
+       }
+    }
+ </style>
+ <div class="scrollbar" id="scrollbar2"></div>
+
+ 
+</body>
+
+</html>
