@@ -1,6 +1,3 @@
-
-![main logo](https://github.com/Sofiyan1-786/ALGO-PROJECT/assets/147476847/5fc6143f-9479-4c07-8f2e-936578ba03cf)
-
 This project is a personal adventure to investigate and acquire knowledge of different algorithms while examining possible crypto market arbitrage opportunities. The main objective is to undestand and Learn algorithmic problem-solving methods better and use them in practical situations, including finding profitable trading chances on various cryptocurrency exchanges.
 
 यह परियोजना संभावित बिटकॉइन बाजार मध्यस्थता के अवसरों की जांच करते हुए विभिन्न एल्गोरिदम की जांच और ज्ञान प्राप्त करने का एक व्यक्तिगत प्रयास है। मुख्य उद्देश्य एल्गोरिथम समस्या-समाधान विधियों को बेहतर ढंग से समझना और व्यावहारिक स्थितियों में उनका उपयोग करना है, जिसमें विभिन्न क्रिप्टोकरेंसी एक्सचेंजों पर लाभदायक ट्रेडिंग संभावनाएं ढूंढना भी शामिल है।
