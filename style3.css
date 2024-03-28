@@ -223,7 +223,7 @@
 .home-section {
   position: relative;
   background: #e4e9f7;
-  height: 55vh;
+  height: -10vh;
   left: 160px;
   width: calc(100% - 260px);
   transition: all 0.5s ease;
@@ -252,13 +252,13 @@
   font-weight: 600;
 }
 .t1 {
-  font-size: 15px;
+  font-size: 25px;
   padding-right: 10px;
   text-align: center;
 }
 .t2 {
-  font-size: 12px;
-  padding-right: 10px;
+  font-size: 16px;
+  padding-right: 50px;
   text-align: center;
 }
 @media (max-width: 420px) {
@@ -1257,7 +1257,7 @@ body{
 
 .typing-demo {
   width: 22ch;
-  height: 100%;
+  /* height: 100%; */
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -1265,7 +1265,7 @@ body{
   font-family: monospace;
   font-size: 2em;
   margin: auto;
-  width: 50%;
+  width: 100%;
   border: 3px solid #37373738;
   padding: 1px;
 }
