@@ -69,44 +69,47 @@
           <iframe frameborder="0" style="height: 430px; overflow:scroll; width: 100%" src="https://sofiya3052.pythonanywhere.com/" marginheight="1" marginwidth="1" name="cboxmain" id="cboxmain" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
         <br>
         </section>
-        <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
-  "symbols": [
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500 Index"
-    },
-    {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "US 100 Cash CFD"
-    },
-    {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR to USD"
-    },
-    {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "Bitcoin"
-    },
-    {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "Ethereum"
-    }
-  ],
-  "showSymbolLogo": true,
-  "isTransparent": false,
-  "largeChartUrl": "https://sofiyan1-786.github.io/ALGO-PROJECT/",
-  "displayMode": "adaptive",
-  "colorTheme": "dark",
-  "locale": "en"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
+
+      <div class="tradingview-widget-container">
+        <div class="tradingview-widget-container__widget"></div>
+        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+        "symbols": [
+          {
+            "proName": "BITSTAMP:BTCUSD",
+            "title": "Bitcoin"
+          },
+          {
+            "proName": "BITSTAMP:ETHUSD",
+            "title": "Ethereum"
+          },
+          {
+            "description": "Ripple",
+            "proName": "KRAKEN:XRPUSD"
+          },
+          {
+            "description": "Stellar",
+            "proName": "CRYPTO:XLMUSD"
+          },
+          {
+            "description": "Solana",
+            "proName": "COINBASE:SOLUSD"
+          },
+          {
+            "description": "BlackRock",
+            "proName": "BITMART:BLACKROCKUSDT"
+          }
+        ],
+        "showSymbolLogo": true,
+        "isTransparent": false,
+        "largeChartUrl": "https://sofiyan1-786.github.io/ALGO-PROJECT/",
+        "displayMode": "adaptive",
+        "colorTheme": "dark",
+        "locale": "en"
+      }
+        </script>
+      </div>
           
       <script  src="./script.js"></script>
     <header class="header-wrap">
