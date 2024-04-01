@@ -1166,7 +1166,7 @@ body{
   display: flex;
   min-height: auto;
   justify-content: center;
-  padding: var(--spacing-xxl) var(--spacing-l);
+  padding: var(--spacing-l) var(--spacing-l);
 }
 
 .card-grid{
