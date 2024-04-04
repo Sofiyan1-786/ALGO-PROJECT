@@ -1264,10 +1264,10 @@ body{
   border-right: 1px solid;
   font-family: monospace;
   font-size: 2em;
-  margin: auto;
+  margin: inherit;
   width: 100%;
-  border: 3px solid #37373738;
-  padding: 1px;
+  border: 84px solid #37373738;
+  padding: 0px;
 }
 
 @keyframes typing {
@@ -1278,7 +1278,7 @@ body{
     
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
 .tickerWidget {
