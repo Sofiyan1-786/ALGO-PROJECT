@@ -1,7 +1,5 @@
 This project is a personal adventure to investigate and acquire knowledge of different algorithms while examining possible crypto market arbitrage opportunities. The main objective is to undestand and Learn algorithmic problem-solving methods better and use them in practical situations, including finding profitable trading chances on various cryptocurrency exchanges.
 
-यह परियोजना संभावित बिटकॉइन बाजार मध्यस्थता के अवसरों की जांच करते हुए विभिन्न एल्गोरिदम की जांच और ज्ञान प्राप्त करने का एक व्यक्तिगत प्रयास है। मुख्य उद्देश्य एल्गोरिथम समस्या-समाधान विधियों को बेहतर ढंग से समझना और व्यावहारिक स्थितियों में उनका उपयोग करना है, जिसमें विभिन्न क्रिप्टोकरेंसी एक्सचेंजों पर लाभदायक ट्रेडिंग संभावनाएं ढूंढना भी शामिल है।
-
 ## Motivation
 
 Cryptocurrency markets are known for their high volatility and price discrepancies across different exchanges. This presents an opportunity for arbitrage trading, where traders can buy an asset on one exchange at a lower price and simultaneously sell it on another exchange at a higher price, profiting from the price difference.
